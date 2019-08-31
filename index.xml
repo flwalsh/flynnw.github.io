@@ -23,18 +23,6 @@
     </item>
     
     <item>
-      <title>My sourdough recipe</title>
-      <link>https://flynns.site/recipes/sourdough/</link>
-      <pubDate>Tue, 16 Apr 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://flynns.site/recipes/sourdough/</guid>
-      <description>This 75% hydration, 15% whole wheat loaf draws from a mix of this King Arthur recipe and Ken Forkish&amp;rsquo;s Flour Water Salt Yeast.
-Ingredients:
- 300g 100% hydration starter (e.g.) 700g all purpose flour (I use King Arthur flours) 150g whole wheat flour 600g room temperature water 22g salt  Procedure:
- Feed starter 4-6 hours before mixing&amp;mdash;if starter is kept in a mason jar, it should be just about overflowing.</description>
-    </item>
-    
-    <item>
       <title>Dear Abby Cake</title>
       <link>https://flynns.site/recipes/dear_abby_cake/</link>
       <pubDate>Tue, 29 May 2018 22:31:15 -0700</pubDate>
@@ -64,6 +52,18 @@ tar xvf vasp.5.4.4.tar.gz gunzip patch.5.4.4.16052018.gz mv patch.5.4.4.16052018
       <guid>https://flynns.site/blog/part_git_repo_public/</guid>
       <description>I use private git repositories to sync and back up most of my scripts, settings, and notes. However, there are various files I&amp;rsquo;d like to make available for colleagues or application reviewers.
 After unsuccessfully playing around with submodules and branches as the internet seems to recommend, I found it easiest to create a new public repository in a separate directory in which I simply hard link to any files I want public.</description>
+    </item>
+    
+    <item>
+      <title>My Sourdough Recipe</title>
+      <link>https://flynns.site/recipes/sourdough/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://flynns.site/recipes/sourdough/</guid>
+      <description>This 75% hydration, 15% whole wheat loaf draws from a mix of this King Arthur recipe and Ken Forkish&amp;rsquo;s Flour Water Salt Yeast.
+Ingredients:
+ 300g 100% hydration starter (e.g.) 700g all purpose flour (I use King Arthur flours) 150g whole wheat flour 600g room temperature water 22g salt  Procedure:
+ Feed starter 4-6 hours before mixing&amp;mdash;if starter is kept in a mason jar, it should be just about overflowing.</description>
     </item>
     
   </channel>

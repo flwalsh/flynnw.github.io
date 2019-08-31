@@ -13,11 +13,6 @@
   </url>
   
   <url>
-    <loc>https://flynns.site/recipes/sourdough/</loc>
-    <lastmod>2019-04-16T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://flynns.site/</loc>
     <lastmod>2018-06-06T03:00:53+06:00</lastmod>
   </url>
@@ -44,6 +39,10 @@
   
   <url>
     <loc>https://flynns.site/categories/</loc>
+  </url>
+  
+  <url>
+    <loc>https://flynns.site/recipes/sourdough/</loc>
   </url>
   
   <url>
