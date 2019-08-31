@@ -36,7 +36,6 @@
 </div>
 
     <h1>Publicizing part of a git repo with hard links</h1>
-    <div><em>Last modified 2018-01-03</em></div>
     <p>I use private git repositories to sync and back up most of my scripts, settings, and notes. However, there are various files I&rsquo;d like to make available for colleagues or application reviewers.</p>
 
 <p>After unsuccessfully playing around with submodules and branches as the internet seems to recommend, I found it easiest to create a new public repository in a separate directory in which I simply hard link to any files I want public. (Git will sadly not follow symlinks.)</p>
