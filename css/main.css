@@ -1,0 +1,19 @@
+body{
+    margin:1em auto;
+    max-width:40em;
+    line-height:1.6;
+    font-size:1.2em;
+    color:#444;
+    padding:0 0.62em
+}
+h1 { font-size: 150%; }
+h2 { font-size: 120%; }
+h1,h2,h3{
+    line-height:1.2
+}
+pre code{
+    background-color: #eee;
+    display: block;
+    padding: 20px;
+}
+
