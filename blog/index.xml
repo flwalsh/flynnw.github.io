@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Blogs on flynn&#39;s site</title>
@@ -19,7 +19,7 @@
       <guid>https://flynns.site/blog/vasp5.4.4_ubuntu16.04/</guid>
       <description>VASP 5.4.4 streamlines compilation, but the official wiki intructions for Ubuntu 18.04 didn&amp;rsquo;t quite work for me and I haven&amp;rsquo;t seen anything else posted so I thought I&amp;rsquo;d share my notes.
 Instructions Install required libraries:
-sudo apt install make build-essential g++ gfortran sudo apt install libblas-dev liblapack-dev libopenmpi-dev libscalapack-mpi-dev libfftw3-dev libfftw3-3 libfftw3-mpi3  Uncompress and patch the source code:
+sudo apt install make build-essential g++ gfortran sudo apt install libblas-dev liblapack-dev libopenmpi-dev libscalapack-mpi-dev libfftw3-dev libfftw3-3 libfftw3-mpi3 Uncompress and patch the source code:
 tar xvf vasp.5.4.4.tar.gz gunzip patch.5.4.4.16052018.gz mv patch.5.4.4.16052018 vasp.5.4.4 cd vasp.5.4.4 patch -p0 &amp;lt; patch.</description>
     </item>
     

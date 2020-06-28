@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>flynn walsh on flynn&#39;s site</title>
@@ -29,7 +29,7 @@
       
       <guid>https://flynns.site/recipes/dear_abby_cake/</guid>
       <description>Cake Makes two moist and chocolatey 8&amp;rdquo; cake layers.
-Ingredients  3 oz. unsweetened chocolate (total 4 oz.) 1&amp;frasl;2 cup butter (total 9 tbsp.) 1 cup water 2 cups cake flour (sifted) 1.25 tsp. baking soda 1 tsp. salt 2 eggs (total 5) 1 cup (8 oz.) sour cream 2 cups sugar (total 3 cups) 1.5 tsp. vanilla (total 3 tsp.)  Procedure  Preheat oven to 350 F. Melt 3 oz.</description>
+Ingredients  3 oz. unsweetened chocolate (total 4 oz.) 1/2 cup butter (total 9 tbsp.) 1 cup water 2 cups cake flour (sifted) 1.25 tsp. baking soda 1 tsp. salt 2 eggs (total 5) 1 cup (8 oz.) sour cream 2 cups sugar (total 3 cups) 1.5 tsp. vanilla (total 3 tsp.)  Procedure  Preheat oven to 350 F. Melt 3 oz.</description>
     </item>
     
     <item>
@@ -40,7 +40,7 @@ Ingredients  3 oz. unsweetened chocolate (total 4 oz.) 1&amp;frasl;2 cup butter 
       <guid>https://flynns.site/blog/vasp5.4.4_ubuntu16.04/</guid>
       <description>VASP 5.4.4 streamlines compilation, but the official wiki intructions for Ubuntu 18.04 didn&amp;rsquo;t quite work for me and I haven&amp;rsquo;t seen anything else posted so I thought I&amp;rsquo;d share my notes.
 Instructions Install required libraries:
-sudo apt install make build-essential g++ gfortran sudo apt install libblas-dev liblapack-dev libopenmpi-dev libscalapack-mpi-dev libfftw3-dev libfftw3-3 libfftw3-mpi3  Uncompress and patch the source code:
+sudo apt install make build-essential g++ gfortran sudo apt install libblas-dev liblapack-dev libopenmpi-dev libscalapack-mpi-dev libfftw3-dev libfftw3-3 libfftw3-mpi3 Uncompress and patch the source code:
 tar xvf vasp.5.4.4.tar.gz gunzip patch.5.4.4.16052018.gz mv patch.5.4.4.16052018 vasp.5.4.4 cd vasp.5.4.4 patch -p0 &amp;lt; patch.</description>
     </item>
     
@@ -52,6 +52,17 @@ tar xvf vasp.5.4.4.tar.gz gunzip patch.5.4.4.16052018.gz mv patch.5.4.4.16052018
       <guid>https://flynns.site/blog/part_git_repo_public/</guid>
       <description>I use private git repositories to sync and back up most of my scripts, settings, and notes. However, there are various files I&amp;rsquo;d like to make available for colleagues or application reviewers.
 After unsuccessfully playing around with submodules and branches as the internet seems to recommend, I found it easiest to create a new public repository in a separate directory in which I simply hard link to any files I want public.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://flynns.site/rpg/d12/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://flynns.site/rpg/d12/</guid>
+      <description>The Simple d12 System Philosophy Simple d12 is a minimalist, setting-agnostic, abstractly realistic system. It is designed for ease of character generation and minimal player downtime. Combat is authentically fast-paced, rushed, and lethal.
+Character Generation   Determine a setting-appropriate background, consisting of a character&amp;rsquo;s:
+ upbringing, including:  nationality social class   education (formal or informal, if any) previous endeavors (if any)  e.g. military service      Select a vocation, specialized to the period.</description>
     </item>
     
     <item>

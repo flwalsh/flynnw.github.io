@@ -36,35 +36,21 @@
 </div>
 
     <h1>Building Vasp 5.4.4 on Ubuntu 16.04</h1>
-    
-
-<p>VASP 5.4.4 streamlines compilation, but the <a href="http://cms.mpi.univie.ac.at/wiki/index.php/A_Ubuntu_based_installation_of_VASP">official wiki intructions</a> for Ubuntu 18.04 didn&rsquo;t quite work for me and I haven&rsquo;t seen anything else posted so I thought I&rsquo;d share my notes.</p>
-
+    <p>VASP 5.4.4 streamlines compilation, but the <a href="http://cms.mpi.univie.ac.at/wiki/index.php/A_Ubuntu_based_installation_of_VASP">official wiki intructions</a> for Ubuntu 18.04 didn&rsquo;t quite work for me and I haven&rsquo;t seen anything else posted so I thought I&rsquo;d share my notes.</p>
 <h2 id="instructions">Instructions</h2>
-
 <p>Install required libraries:</p>
-
 <pre><code>sudo apt install make build-essential g++ gfortran
 sudo apt install libblas-dev liblapack-dev libopenmpi-dev libscalapack-mpi-dev libfftw3-dev libfftw3-3 libfftw3-mpi3
-</code></pre>
-
-<p>Uncompress and <a href="http://cms.mpi.univie.ac.at/wiki/index.php/Installing_VASP#For_vasp.5.4.4.18Apr17-6-g9f103f2a35">patch</a> the source code:</p>
-
+</code></pre><p>Uncompress and <a href="http://cms.mpi.univie.ac.at/wiki/index.php/Installing_VASP#For_vasp.5.4.4.18Apr17-6-g9f103f2a35">patch</a> the source code:</p>
 <pre><code>tar xvf vasp.5.4.4.tar.gz
 gunzip patch.5.4.4.16052018.gz
 mv patch.5.4.4.16052018 vasp.5.4.4
 cd vasp.5.4.4
 patch -p0 &lt; patch.5.4.4.16052018
-</code></pre>
-
-<p>Setup up default makefile.include</p>
-
+</code></pre><p>Setup up default makefile.include</p>
 <pre><code>cd vasp.5.4.4
 cp arch/makefile.include.linux_gnu makefile.include
-</code></pre>
-
-<p>Modify the following lines in the makefile.include. This is the only part that is new here:</p>
-
+</code></pre><p>Modify the following lines in the makefile.include. This is the only part that is new here:</p>
 <pre><code>LIBDIR     = /usr/lib/x86_64-linux-gnu
 BLAS       = -L/usr/lib -lrefblas
 LAPACK     = -L$(LIBDIR) -lmtglib -llapack
@@ -77,13 +63,9 @@ INCS       = -I/usr/include
 
 OBJECTS    = fftmpiw.o fftmpi_map.o fftw3d.o fft3dlib.o \
              $(LIBDIR)/libfftw3.a
-</code></pre>
-
-<p>Then you should be good to go!</p>
-
+</code></pre><p>Then you should be good to go!</p>
 <pre><code>make std gam ncl
 </code></pre>
-
 
   </div>
 
