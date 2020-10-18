@@ -5,11 +5,7 @@
     <link>https://flynns.site/rpg/</link>
     <description>Recent content in Rpgs on flynn&#39;s site</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    
-	<atom:link href="https://flynns.site/rpg/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <language>en-us</language><atom:link href="https://flynns.site/rpg/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title></title>
       <link>https://flynns.site/rpg/d12/</link>
