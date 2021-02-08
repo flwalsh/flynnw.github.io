@@ -3,18 +3,13 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://flynns.site/recipes/biscotti/</loc>
-    <lastmod>2020-10-18T00:00:00+00:00</lastmod>
+    <loc>https://flynns.site/recipes/buns/</loc>
+    <lastmod>2020-10-26T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://flynns.site/recipes/</loc>
-    <lastmod>2020-10-18T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://flynns.site/recipes/pizza/</loc>
-    <lastmod>2019-04-17T00:21:25-07:00</lastmod>
+    <lastmod>2020-10-26T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -23,17 +18,12 @@
   </url>
   
   <url>
-    <loc>https://flynns.site/recipes/dear_abby_cake/</loc>
-    <lastmod>2018-05-29T22:31:15-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://flynns.site/recipes/pie-crust/</loc>
-    <lastmod>2018-05-29T22:31:15-07:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://flynns.site/berkeley/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://flynns.site/movies/</loc>
     <priority>0</priority>
   </url>
   
@@ -43,10 +33,6 @@
   
   <url>
     <loc>https://flynns.site/categories/</loc>
-  </url>
-  
-  <url>
-    <loc>https://flynns.site/recipes/sourdough/</loc>
   </url>
   
   <url>
