@@ -1,46 +1,28 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
   <url>
-    <loc>https://flynns.site/recipes/buns/</loc>
+    <loc>https://walsh.science/recipes/buns/</loc>
     <lastmod>2020-10-26T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://flynns.site/recipes/</loc>
+  </url><url>
+    <loc>https://walsh.science/recipes/</loc>
     <lastmod>2020-10-26T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://flynns.site/</loc>
+  </url><url>
+    <loc>https://walsh.science/</loc>
     <lastmod>2018-06-06T03:00:53+06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://flynns.site/berkeley/</loc>
+  </url><url>
+    <loc>https://walsh.science/berkeley/</loc>
     <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://flynns.site/movies/</loc>
+  </url><url>
+    <loc>https://walsh.science/movies/</loc>
     <priority>0</priority>
+  </url><url>
+    <loc>https://walsh.science/rpg/d12/</loc>
+  </url><url>
+    <loc>https://walsh.science/categories/</loc>
+  </url><url>
+    <loc>https://walsh.science/rpg/</loc>
+  </url><url>
+    <loc>https://walsh.science/tags/</loc>
   </url>
-  
-  <url>
-    <loc>https://flynns.site/rpg/d12/</loc>
-  </url>
-  
-  <url>
-    <loc>https://flynns.site/categories/</loc>
-  </url>
-  
-  <url>
-    <loc>https://flynns.site/rpg/</loc>
-  </url>
-  
-  <url>
-    <loc>https://flynns.site/tags/</loc>
-  </url>
-  
 </urlset>
