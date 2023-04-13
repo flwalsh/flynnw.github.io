@@ -11,10 +11,16 @@
     <loc>https://walsh.science/</loc>
     <lastmod>2018-06-06T03:00:53+06:00</lastmod>
   </url><url>
+    <loc>https://walsh.science/archetypes/</loc>
+    <priority>0</priority>
+  </url><url>
     <loc>https://walsh.science/berkeley/</loc>
     <priority>0</priority>
   </url><url>
     <loc>https://walsh.science/movies/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>https://walsh.science/prototypes/</loc>
     <priority>0</priority>
   </url><url>
     <loc>https://walsh.science/rpg/d12/</loc>
